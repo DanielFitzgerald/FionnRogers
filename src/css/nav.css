@@ -1,0 +1,63 @@
+.Nav__Container {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 70%;
+  z-index: 1;
+  background: #dbdde1;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: #081820;
+  transition: right 1s ease-in-out;
+}
+
+.Nav__Container--closed {
+  right: -70%;
+}
+
+.Nav__Container--opened {
+  right: 0%;
+}
+
+.Nav__List {
+  list-style: none;
+}
+
+.Nav__List a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.Nav__ListItem {
+  color: #081820;
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.Nav__Toggle {
+  color: white;
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.Nav__Toggle--closed {
+  color: white;
+}
+.Nav__Toggle--opened {
+  color: black;
+}
+
+.Nav__Social {
+  display: flex;
+  margin-left: 30px;
+}
+
+.Nav__SocialIcon {
+  font-size: 2rem;
+  margin: 0px 1rem;
+}

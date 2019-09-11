@@ -1,6 +1,6 @@
-require('../index/node_modules/normalize.css/normalize.css');
-require('../css/main.css');
-require('./page.css');
+import '../../node_modules/normalize.css';
+import '../css/main.css';
+import './page.css';
 
 document.addEventListener('DOMContentLoaded', () => {
   console.log('DOMContentLoaded', 'page-about');

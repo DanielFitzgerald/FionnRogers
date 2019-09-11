@@ -9,7 +9,8 @@ module.exports = {
   entry: {
     index: './src/index/main.js',
     about: './src/about/main.js',
-    contacts: './src/contacts/main.js'
+    contacts: './src/contacts/main.js',
+    nav: './src/partials/nav.js'
   },
 
   // https://webpack.js.org/configuration/dev-server/
@@ -61,19 +62,19 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index/tmpl.html',
       inject: true,
-      chunks: ['index'],
+      chunks: ['index', 'nav'],
       filename: 'index.html'
     }),
     new HtmlWebpackPlugin({
       template: './src/about/tmpl.html',
       inject: true,
-      chunks: ['about'],
+      chunks: ['about', 'nav'],
       filename: 'about.html'
     }),
     new HtmlWebpackPlugin({
       template: './src/contacts/tmpl.html',
       inject: true,
-      chunks: ['contacts'],
+      chunks: ['contacts', 'nav'],
       filename: 'contacts.html'
     })
   ]
