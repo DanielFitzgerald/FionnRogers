@@ -10,7 +10,7 @@ module.exports = {
     index: './src/index/main.js',
     about: './src/about/main.js',
     contacts: './src/contacts/main.js',
-    nav: './src/partials/nav.js'
+    nav: './src/partials/nav/nav.js'
   },
 
   // https://webpack.js.org/configuration/dev-server/

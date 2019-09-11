@@ -1,6 +1,6 @@
 import '../../node_modules/normalize.css';
 import '../css/main.css';
-import '../css/nav.css';
+import '../partials/nav/nav.css';
 import './page.css';
 
 document.addEventListener('DOMContentLoaded', () => {

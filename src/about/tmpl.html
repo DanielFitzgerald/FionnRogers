@@ -18,7 +18,10 @@
     />
   </head>
   <body>
-    <%= require('html-loader!../partials/nav.html') %> <%=
-    require('html-loader!../partials/footer.html') %>
+    <%= require('html-loader!../partials/nav/nav.html') %>
+    <div class="About">
+      <div class="About__Heading">About</div>
+    </div>
+    <%= require('html-loader!../partials/footer.html') %>
   </body>
 </html>

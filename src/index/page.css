@@ -1,0 +1,9 @@
+.Home {
+}
+
+.Home__Banner {
+  width: 100vh;
+  height: 100vh;
+  background: black;
+  color: white;
+}
